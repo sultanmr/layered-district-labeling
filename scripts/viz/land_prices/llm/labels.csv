@@ -1,0 +1,13 @@
+table_name,district,hashtags
+land_prices,Lichtenberg,"#data-quality-issue,#zero-per-capita,#high-volume,#land-prices,#district-analysis,#statistical-anomaly"
+land_prices,Friedrichshain-Kreuzberg,"#no-land-value,#high-data-volume,#low-per-capita-value"
+land_prices,Neukölln,"#zero-land-value,#high-volume-data,#atypical-pricing,#outlier-data,#data-anomaly,#missing-value"
+land_prices,Tempelhof-Schöneberg,"#low-land-value,#data-rich,#per-capita-zero,#statistical-outlier"
+land_prices,Marzahn-Hellersdorf,"#low-land-price,#high-transaction-volume,#data-rich"
+land_prices,Charlottenburg-Wilmersdorf,"#low-land-price-per-capita,#high-land-price-data-volume"
+land_prices,Mitte,"#low-land-value,#high-volume-data,#data-rich,#urban-metrics,#affordability-indicator,#property-assessment"
+land_prices,Pankow,"#zero-land-value,#high-data-volume,#statistical-district,#nominal-value,#land-valuation,#data-rich"
+land_prices,Reinickendorf,"#no-land-value,#data-rich,#zero-valuation,#land-price-metrics,#extensive-data,#per-capita-zero"
+land_prices,Steglitz-Zehlendorf,"#no-land-value,#data-rich,#zero-valuation,#property-data,#value-null,#land-pricing"
+land_prices,Treptow-Köpenick,"#low-land-price,#zero-value-land,#high-volume-data,#land-price-analysis,#no-land-ownership,#statistically-null"
+land_prices,Spandau,"#no-land-value,#data-rich,#outlier-data"

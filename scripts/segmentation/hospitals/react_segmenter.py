@@ -1,0 +1,34 @@
+from typing import Dict, List
+import pandas as pd
+import numpy as np
+import logging
+from langchain.tools import Tool
+from ..react_base import ReactSegmentationStrategy
+from .schemas import HospitalsTag
+
+logger = logging.getLogger(__name__)
+
+class HospitalsReactSegmenter(ReactSegmentationStrategy):
+    def __init__(self):
+        tools = self._create_all_tools()
+        cols = ['hospitals_per_capita', 'num_hospitals']
+        super().__init__(tools, cols, "openai")
+
+    def segment(self, features: pd.DataFrame) -> Dict[str, List[str]]:
+        self.features_df = features.copy()
+        
+        try:
+            analysis_prompt = self._create_analysis_prompt("hospitals", features, HospitalsTag.get_all_tags())
+            return self._get_results(analysis_prompt, features)
+        except Exception as e:
+            logger.error(f"ReAct agent error: {e}")
+
+    def _create_tools(self):
+        """Create hospitals analysis specific tools using superclass helpers"""
+        return [
+            self._create_density_analysis_tool(
+                "analyze_density",
+                "Analyze hospitals density using dynamic thresholds.",
+                lambda data: self._analyze_density(data, "hospitals density")
+            )
+        ]

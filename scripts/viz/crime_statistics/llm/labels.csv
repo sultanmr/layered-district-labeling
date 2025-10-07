@@ -1,0 +1,13 @@
+table_name,district,hashtags
+crime_statistics,Lichtenberg,"#low-crime,#high-volume,#safe-district,#statistical-anomaly,#zero-per-capita"
+crime_statistics,Friedrichshain-Kreuzberg,"#low-crime,#high-incident,#large-dataset,#data-heavy,#statistically-insignificant,#outlier-data"
+crime_statistics,Neukölln,"#low-crime,#zero-crime-per-capita,#high-incident-volume"
+crime_statistics,Tempelhof-Schöneberg,"#low-crime,#high-incident-volume,#statistically-safe,#virtually-crime-free"
+crime_statistics,Marzahn-Hellersdorf,"#low-crime,#high-volume,#crime-data,#statistical-district,#unusual-pattern,#data-analysis"
+crime_statistics,Charlottenburg-Wilmersdorf,"#low-crime,#high-volume,#data-rich,#statistical-anomaly,#unusual-data,#crime-analysis"
+crime_statistics,Mitte,"#low-crime,#high-volume,#low-per-capita-crime,#eventful-district,#statistically-safe,#numerous-incidents"
+crime_statistics,Pankow,"#low-crime,#high-volume,#statistical-anomaly,#data-driven,#incident-focused,#reporting-heavy"
+crime_statistics,Reinickendorf,"#low-crime-rate,#high-incident-volume,#statistically-safe,#data-heavy"
+crime_statistics,Steglitz-Zehlendorf,"#low-crime,#high-incidence,#statistical-anomaly,#data-driven-analysis,#crime-reporting,#large-dataset"
+crime_statistics,Treptow-Köpenick,"#low-crime,#zero-crime,#high-incident-volume"
+crime_statistics,Spandau,"#low-crime,#high-incident-rate,#unusually-low-per-capita,#statistically-anomalous"

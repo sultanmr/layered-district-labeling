@@ -1,0 +1,13 @@
+table_name,district,hashtags
+pools,Pankow,"#low-pool-density,#nine-pools,#no-pools-per-capita"
+pools,Reinickendorf,"#low-pool-density,#high-pool-count,#underserved-district,#recreational-deficit,#amenity-shortage,#public-access-focus"
+pools,Steglitz-Zehlendorf,"#low-pool-density,#no-public-pools,#high-pool-shortage,#pool-deserts,#under-resourced-pools,#pool-inequity"
+pools,Friedrichshain-Kreuzberg,"#low-pool-density,#high-number-of-pools,#community-focused-recreation"
+pools,Neukölln,"#low-pool-density,#limited-access,#community-amenities,#public-services,#recreational-infrastructure"
+pools,Marzahn-Hellersdorf,"#low-pool-access,#limited-recreation,#community-amenities-scarce,#urban-resource-deficit"
+pools,Lichtenberg,"#low-pool-density,#high-number-of-pools,#under-serviced-district"
+pools,Treptow-Köpenick,"#underserviced-district,#low-pool-access,#public-pool-shortage,#community-amenity-deficit"
+pools,Tempelhof-Schöneberg,"#low-pool-access,#undersupplied-district,#8-pools,#no-pools-per-capita"
+pools,Spandau,"#low-pool-density,#adequate-pool-number,#community-pools,#public-pools,#recreational-pools,#district-pools"
+pools,Mitte,"#low-pool-density,#high-pool-per-capita,#pool-rich,#9-pools,#underdeveloped-aquatics,#ample-swimming"
+pools,Charlottenburg-Wilmersdorf,"#low-pools-per-capita,#high-number-of-pools,#pool-density-issue,#district-amenities"

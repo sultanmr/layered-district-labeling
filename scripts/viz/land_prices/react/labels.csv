@@ -1,0 +1,13 @@
+table_name,district,hashtags
+land_prices,Lichtenberg,"#well-served,#low-variability,#medium-variability"
+land_prices,Friedrichshain-Kreuzberg,"#medium-variability,#wide-value-range"
+land_prices,Neukölln,"#underserved,#medium-variability,#wide-value-range"
+land_prices,Tempelhof-Schöneberg,"#medium-variability,#wide-value-range"
+land_prices,Marzahn-Hellersdorf,"#medium-variability,#wide-value-range"
+land_prices,Charlottenburg-Wilmersdorf,"#well-served,#low-variability,#medium-variability"
+land_prices,Mitte,"#medium-variability,#wide-value-range"
+land_prices,Pankow,"#medium-variability,#wide-value-range"
+land_prices,Reinickendorf,"#medium-variability,#wide-value-range"
+land_prices,Steglitz-Zehlendorf,"#medium-variability,#wide-value-range"
+land_prices,Treptow-Köpenick,"#underserved,#medium-variability,#wide-value-range"
+land_prices,Spandau,"#medium-variability,#wide-value-range"

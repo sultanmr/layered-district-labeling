@@ -1,0 +1,13 @@
+table_name,district,hashtags
+bus_tram_stops,Charlottenburg-Wilmersdorf,
+bus_tram_stops,Friedrichshain-Kreuzberg,#has-outliers-1
+bus_tram_stops,Lichtenberg,#good-coverage
+bus_tram_stops,Marzahn-Hellersdorf,#well-served
+bus_tram_stops,Mitte,
+bus_tram_stops,Neukölln,
+bus_tram_stops,Pankow,#good-coverage
+bus_tram_stops,Reinickendorf,#well-served
+bus_tram_stops,Spandau,#well-served
+bus_tram_stops,Steglitz-Zehlendorf,
+bus_tram_stops,Tempelhof-Schöneberg,
+bus_tram_stops,Treptow-Köpenick,#good-coverage

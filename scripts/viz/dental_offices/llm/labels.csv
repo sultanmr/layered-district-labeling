@@ -1,0 +1,13 @@
+table_name,district,hashtags
+dental_offices,Pankow,"#low-dental-office-density,#high-office-count,#underserved-district"
+dental_offices,Reinickendorf,"#high-density-offices,#low-per-capita-density,#abundant-dental-services,#region-well-served,#numerous-clinics"
+dental_offices,Steglitz-Zehlendorf,"#low-dental-access,#high-office-concentration,#urban-density,#service-availability,#dental-shortage,#geographic-distribution"
+dental_offices,Friedrichshain-Kreuzberg,"#underserved-district,#high-office-count,#low-access-dentistry,#dental-desert,#high-density-offices,#limited-dental-availability"
+dental_offices,Neukölln,"#low-dental-access,#high-office-count,#rural-district,#underserved-population,#urban-surplus"
+dental_offices,Marzahn-Hellersdorf,"#low-dental-access,#high-office-density,#781-offices"
+dental_offices,Lichtenberg,"#high-office-count,#zero-per-capita,#surplus-offices,#high-density-dental"
+dental_offices,Treptow-Köpenick,"#low-density-dental,#high-office-count,#underserved-dental,#781-offices,#sparse-dental"
+dental_offices,Tempelhof-Schöneberg,"#low-dentist-density,#high-office-count,#underserved-district"
+dental_offices,Spandau,"#underserved-dental,#high-office-density,#resource-rich-dental,#dental-hub"
+dental_offices,Mitte,"#low-dental-access,#high-office-density,#underserved-district,#abundant-dentists"
+dental_offices,Charlottenburg-Wilmersdorf,"#underserved-district,#high-office-density,#large-office-number"

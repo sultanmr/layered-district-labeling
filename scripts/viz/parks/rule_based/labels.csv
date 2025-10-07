@@ -1,0 +1,13 @@
+table_name,district,hashtags
+parks,Charlottenburg-Wilmersdorf,#many-parks
+parks,Friedrichshain-Kreuzberg,
+parks,Lichtenberg,"#large-park,#spacious"
+parks,Marzahn-Hellersdorf,"#large-park,#spacious,#many-parks"
+parks,Mitte,#many-parks
+parks,Neukölln,"#many-parks,#crowded"
+parks,Pankow,"#large-park,#spacious"
+parks,Reinickendorf,"#large-park,#spacious"
+parks,Spandau,"#large-park,#spacious"
+parks,Steglitz-Zehlendorf,#many-parks
+parks,Tempelhof-Schöneberg,"#many-parks,#crowded"
+parks,Treptow-Köpenick,"#large-park,#spacious"

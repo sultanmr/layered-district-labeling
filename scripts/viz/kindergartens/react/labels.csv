@@ -1,0 +1,13 @@
+table_name,district,hashtags
+kindergartens,Spandau,"#low-variability,#medium-variability,#wide-value-range"
+kindergartens,Reinickendorf,"#well-served,#low-variability,#medium-variability,#wide-value-range"
+kindergartens,Marzahn-Hellersdorf,"#well-served,#low-variability,#medium-variability,#wide-value-range"
+kindergartens,Pankow,"#underserved,#low-variability,#medium-variability,#wide-value-range"
+kindergartens,Mitte,"#low-variability,#medium-variability,#wide-value-range"
+kindergartens,Tempelhof-Schöneberg,"#underserved,#low-variability,#medium-variability,#wide-value-range"
+kindergartens,Lichtenberg,"#low-variability,#medium-variability,#wide-value-range"
+kindergartens,Friedrichshain-Kreuzberg,"#low-variability,#medium-variability,#wide-value-range"
+kindergartens,Neukölln,"#low-variability,#medium-variability,#wide-value-range"
+kindergartens,Charlottenburg-Wilmersdorf,"#low-variability,#medium-variability,#wide-value-range"
+kindergartens,Treptow-Köpenick,"#low-variability,#medium-variability,#wide-value-range"
+kindergartens,Steglitz-Zehlendorf,"#low-variability,#medium-variability,#wide-value-range"

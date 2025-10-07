@@ -1,0 +1,13 @@
+table_name,district,hashtags
+sbahn,Friedrichshain-Kreuzberg,"#zero-sbahn-per-capita,#high-sbahn-density,#transit-rich-district,#infrastructure-heavy"
+sbahn,Pankow,"#low-sbahn-per-capita,#high-sbahn-density,#transit-infrastructure,#urban-planning"
+sbahn,Treptow-Köpenick,"#high-sbahn-density,#low-sbahn-per-capita"
+sbahn,Neukölln,"#low-sbahn-per-capita,#high-sbahn-density,#sbahn-rich-district,#transit-focused-area"
+sbahn,Tempelhof-Schöneberg,"#low-sbahn-per-capita,#high-sbahn-density,#transport-infrastructure"
+sbahn,Marzahn-Hellersdorf,"#low-sbahn-per-capita,#high-sbahn-density,#district-sbahn-stats"
+sbahn,Lichtenberg,"#low-sbahn-per-capita,#high-sbahn-density,#transit-rich,#dense-transit-network"
+sbahn,Reinickendorf,"#low-sbahn-per-capita,#high-sbahn-density,#suburban-sbahn-access,#public-transit-provision,#transportation-infrastructure"
+sbahn,Steglitz-Zehlendorf,"#low-sbahn-per-capita,#high-sbahn-count,#district-sbahn-analysis"
+sbahn,Charlottenburg-Wilmersdorf,"#low-sbahn-per-capita,#high-sbahn-density,#suburban-sbahn-count,#transit-rich-district,#infrastructure-heavy,#community-transit"
+sbahn,Spandau,"#low-sbahn-per-capita,#multiple-sbahn,#limited-access-sbahn,#infrastructure-heavy"
+sbahn,Mitte,"#low-sbahn-per-capita,#high-sbahn-density,#45-sbahn-district"

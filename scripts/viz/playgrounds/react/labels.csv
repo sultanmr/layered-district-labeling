@@ -1,0 +1,13 @@
+table_name,district,hashtags
+playgrounds,Spandau,"#well-served,#low-variability,#medium-variability"
+playgrounds,Reinickendorf,"#well-served,#low-variability,#medium-variability"
+playgrounds,Marzahn-Hellersdorf,"#well-served,#low-variability,#medium-variability"
+playgrounds,Friedrichshain-Kreuzberg,"#low-variability,#medium-variability"
+playgrounds,Neukölln,"#low-variability,#medium-variability"
+playgrounds,Tempelhof-Schöneberg,"#underserved,#low-variability,#medium-variability"
+playgrounds,Charlottenburg-Wilmersdorf,"#low-variability,#medium-variability"
+playgrounds,Mitte,"#underserved,#low-variability,#medium-variability"
+playgrounds,Pankow,"#underserved,#low-variability,#medium-variability"
+playgrounds,Steglitz-Zehlendorf,"#low-variability,#medium-variability"
+playgrounds,Treptow-Köpenick,"#low-variability,#medium-variability"
+playgrounds,Lichtenberg,"#low-variability,#medium-variability"

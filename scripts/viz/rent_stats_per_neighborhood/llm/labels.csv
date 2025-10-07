@@ -1,0 +1,13 @@
+table_name,district,hashtags
+rent_stats_per_neighborhood,Friedrichshain-Kreuzberg,"#low-rent-per-capita,#high-rent-stat-density"
+rent_stats_per_neighborhood,Pankow,"#low-rent-per-capita,#high-rent-stat-density,#many-rent-stats"
+rent_stats_per_neighborhood,Charlottenburg-Wilmersdorf,"#low-rent-stats,#high-neighborhood-density"
+rent_stats_per_neighborhood,Treptow-Köpenick,"#low-rent-per-capita,#many-rent-stats,#data-rich,#zero-rent-per-capita"
+rent_stats_per_neighborhood,Neukölln,"#low-rent-per-capita,#neighborhood-rent-stats,#high-volume-rent-data"
+rent_stats_per_neighborhood,Tempelhof-Schöneberg,"#low-rent-per-capita,#high-number-of-rent-stats,#neighborhood-rent-data,#comprehensive-rental-analysis,#urban-rent-density,#statistical-rental-coverage"
+rent_stats_per_neighborhood,Marzahn-Hellersdorf,"#low-rent,#data-rich,#neighborhood-level,#uniform-rent,#consistent-stats,#ample-data"
+rent_stats_per_neighborhood,Spandau,"#low-rent-data,#neighborhood-rent-stats,#abundant-rent-data"
+rent_stats_per_neighborhood,Mitte,"#low-rent-per-capita,#high-number-of-rent-stats"
+rent_stats_per_neighborhood,Lichtenberg,"#low-rent,#high-density-stats,#neighborhood-analysis,#rent-data"
+rent_stats_per_neighborhood,Reinickendorf,"#low-rent-per-capita,#multiple-rent-stats,#data-rich-neighborhoods"
+rent_stats_per_neighborhood,Steglitz-Zehlendorf,"#low-rent-density,#neighborhood-focused-data,#high-neighborhood-count"

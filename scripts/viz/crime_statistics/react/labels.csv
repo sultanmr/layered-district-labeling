@@ -1,0 +1,13 @@
+table_name,district,hashtags
+crime_statistics,Lichtenberg,"#low-variability,#medium-variability"
+crime_statistics,Friedrichshain-Kreuzberg,"#well-served,#low-variability"
+crime_statistics,Neukölln,"#well-served,#medium-variability"
+crime_statistics,Tempelhof-Schöneberg,#medium-variability
+crime_statistics,Marzahn-Hellersdorf,"#well-served,#medium-variability"
+crime_statistics,Charlottenburg-Wilmersdorf,#well-served
+crime_statistics,Mitte,#wide-value-range
+crime_statistics,Pankow,#wide-value-range
+crime_statistics,Reinickendorf,"#well-served,#medium-variability"
+crime_statistics,Steglitz-Zehlendorf,#low-variability
+crime_statistics,Treptow-Köpenick,"#well-served,#low-variability,#wide-value-range"
+crime_statistics,Spandau,"#well-served,#wide-value-range,#medium-variability"

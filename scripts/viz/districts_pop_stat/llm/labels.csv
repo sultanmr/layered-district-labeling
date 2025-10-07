@@ -1,0 +1,13 @@
+table_name,district,hashtags
+districts_pop_stat,Neukölln,"#zero-per-capita,#single-district"
+districts_pop_stat,Lichtenberg,"#low-per-capita-stat,#single-district-stat,#zero-per-capita-value,#minimal-district-stat"
+districts_pop_stat,Spandau,"#low-population,#single-district,#no-data"
+districts_pop_stat,Reinickendorf,"#low-pop-stat,#single-district-stat"
+districts_pop_stat,Treptow-Köpenick,"#zero-per-capita,#single-district,#null-value,#no-stat"
+districts_pop_stat,Pankow,"#low-per-capita-stat,#single-district-stat,#zero-per-capita-value"
+districts_pop_stat,Steglitz-Zehlendorf,"#low-pop-stat-per-capita,#single-pop-stat-district,#minimal-districts-pop-stat,#zero-pop-stat-indicator"
+districts_pop_stat,Tempelhof-Schöneberg,"#low-pop-stat,#single-district-stat,#zero-per-capita-stat"
+districts_pop_stat,Marzahn-Hellersdorf,"#zero-pop-stat,#single-district-pop-stat,#no-pop-stat-data"
+districts_pop_stat,Friedrichshain-Kreuzberg,"#low-per-capita,#single-district,#negligible-stat"
+districts_pop_stat,Charlottenburg-Wilmersdorf,"#low-popstat-per-capita,#single-district-popstat"
+districts_pop_stat,Mitte,"#zero-per-capita,#single-instance,#minimal-representation"

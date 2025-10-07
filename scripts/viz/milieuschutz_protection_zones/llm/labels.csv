@@ -1,0 +1,12 @@
+table_name,district,hashtags
+milieuschutz_protection_zones,Friedrichshain-Kreuzberg,"#milieuschutz-low-per-capita,#milieuschutz-high-number,#urban-planning-focus"
+milieuschutz_protection_zones,Pankow,"#low-density-milieuschutz,#high-zone-count,#urban-planning,#protected-areas,#conservation-policy,#district-overview"
+milieuschutz_protection_zones,Charlottenburg-Wilmersdorf,"#low-density-zones,#high-zone-count,#zero-per-capita-zones,#protected-areas-dense"
+milieuschutz_protection_zones,Treptow-Köpenick,"#low-milieuschutz-per-capita,#high-zone-count,#dense-protection,#urban-planning-focus,#conservation-priority,#district-level-zones"
+milieuschutz_protection_zones,Neukölln,"#no-milieuschutz-per-capita,#many-zones,#zone-density-low"
+milieuschutz_protection_zones,Tempelhof-Schöneberg,"#low-milieuschutz-per-capita,#high-zone-count,#dense-zones,#area-milieuschutz,#urban-planning,#district-milieuschutz"
+milieuschutz_protection_zones,Spandau,"#no-milieuschutz-per-capita,#low-milieuschutz-density,#few-milieuschutz-zones"
+milieuschutz_protection_zones,Mitte,"#low-density-zones,#high-zone-count,#urban-protection,#conservation-areas,#environmental-zones"
+milieuschutz_protection_zones,Lichtenberg,"#urban-planning,#residential-protection,#district-analysis,#low-density,#public-space,#neighborhood-development"
+milieuschutz_protection_zones,Reinickendorf,"#no-milieuschutz-per-capita,#low-milieuschutz,#few-milieuschutz-zones"
+milieuschutz_protection_zones,Steglitz-Zehlendorf,"#zero-zones-per-capita,#twenty-one-zones,#milieuschutz-districts,#density-analysis,#urban-planning-data"

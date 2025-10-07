@@ -1,0 +1,13 @@
+table_name,district,hashtags
+venues,Lichtenberg,"#low-density,#high-venue-count,#community-resources,#event-space,#public-amenities,#local-business"
+venues,Friedrichshain-Kreuzberg,"#high-venue-density,#1279-venues,#abundant-amenities"
+venues,Neukölln,"#low-venue-density,#high-venue-count"
+venues,Tempelhof-Schöneberg,"#low-venue-density,#high-venue-count"
+venues,Marzahn-Hellersdorf,"#low-venue-density,#high-venue-count"
+venues,Charlottenburg-Wilmersdorf,"#low-venue-density,#high-venue-count,#urban-centric,#abundant-amenities,#well-serviced,#population-dense"
+venues,Mitte,"#high-venue-density,#dense-venue-network,#abundant-venues,#saturation-point,#venue-rich,#exhaustive-coverage"
+venues,Pankow,"#undersupplied-venues,#venue-rich-district,#high-venue-density"
+venues,Reinickendorf,"#low-venue-density,#high-venue-count"
+venues,Steglitz-Zehlendorf,"#low-venue-count,#high-population-density,#sparse-entertainment,#service-based-economy"
+venues,Treptow-Köpenick,"#high-venue-density,#low-population-density,#suburban-venue-mix,#community-focused"
+venues,Spandau,"#low-venue-density,#high-venue-count,#district-performance"

@@ -1,0 +1,13 @@
+table_name,district,hashtags
+bus_tram_stops,Charlottenburg-Wilmersdorf,"#low-coverage,#high-quality,#stop-density-low,#limited-reach,#localized-service,#concentrated-service"
+bus_tram_stops,Friedrichshain-Kreuzberg,"#low-coverage,#high-quality-service,#stop-sparse,#neighborhood-limited,#potential-expansion"
+bus_tram_stops,Lichtenberg,"#low-stops-per-capita,#low-coverage,#high-service-quality,#limited-neighborhood-access,#dense-stop-concentration"
+bus_tram_stops,Marzahn-Hellersdorf,"#low-coverage,#high-quality-service,#sparse-stops,#limited-reach,#few-neighborhoods"
+bus_tram_stops,Mitte,"#low-coverage,#high-quality,#few-neighborhoods,#adequate-stops"
+bus_tram_stops,Neukölln,"#low-coverage-low-density,#high-quality-service,#limited-neighborhoods,#inadequate-access"
+bus_tram_stops,Pankow,"#low-density-coverage,#high-service-quality,#limited-reach,#stop-rich"
+bus_tram_stops,Reinickendorf,"#low-coverage,#high-quality-service,#stop-distribution-issue,#neighborhood-access-gap"
+bus_tram_stops,Spandau,"#low-coverage-but-high-quality,#poor-per-capita-access,#limited-neighborhood-reach,#high-service-standard"
+bus_tram_stops,Steglitz-Zehlendorf,"#low-coverage,#high-quality-service,#stop-limited,#neighborhood-focused,#sparse-accessibility"
+bus_tram_stops,Tempelhof-Schöneberg,"#low-coverage,#high-quality,#limited-reach,#few-neighborhoods,#stop-density-issue,#service-excellence"
+bus_tram_stops,Treptow-Köpenick,"#low-coverage-high-quality,#high-service-per-capita,#stop-heavy-neighborhoods,#314-stops-10-neighborhoods"

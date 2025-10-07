@@ -1,0 +1,13 @@
+table_name,district,hashtags
+hospitals,Spandau,"#well-served,#low-variability,#wide-value-range"
+hospitals,Reinickendorf,"#well-served,#low-variability,#wide-value-range"
+hospitals,Marzahn-Hellersdorf,"#well-served,#low-variability,#wide-value-range"
+hospitals,Pankow,"#underserved,#medium-variability,#wide-value-range"
+hospitals,Mitte,"#underserved,#medium-variability,#wide-value-range"
+hospitals,Tempelhof-Schöneberg,"#underserved,#medium-variability,#wide-value-range"
+hospitals,Steglitz-Zehlendorf,"#well-served,#medium-variability,#wide-value-range"
+hospitals,Charlottenburg-Wilmersdorf,"#well-served,#medium-variability,#wide-value-range"
+hospitals,Friedrichshain-Kreuzberg,"#underserved,#medium-variability,#wide-value-range"
+hospitals,Treptow-Köpenick,"#underserved,#medium-variability,#wide-value-range"
+hospitals,Lichtenberg,"#underserved,#medium-variability,#wide-value-range"
+hospitals,Neukölln,"#underserved,#medium-variability,#wide-value-range"

@@ -1,0 +1,168 @@
+{
+  "f8784647932e84ab4ba45d219f4622c5": {
+    "timestamp": "1757597952.9542959",
+    "query": "\nSELECT\n    p.district,\n    p.district_id,\n    COUNT(p.park_id) AS num_parks,\n    SUM(p.area_sq_m) AS total_park_area,\n    AVG(p.area_sq_m) AS avg_park_size,\n    COUNT(DISTINCT p.neighborhood) AS neighborhoods_with_parks,\n    COALESCE(SUM(r.inhabitants), 1) AS population,\n    (SUM(p.area_sq_m) * 10000.0) / NULLIF(SUM(r.inhabitants), 0) AS park_area_per_10k_residents\nFROM berlin_source_data.parks p\nLEFT JOIN berlin_source_data.regional_statistics r\n    ON p.district = r.district AND r.year = (SELECT MAX(year) FROM berlin_source_data.regional_statistics)\nGROUP BY p.district, p.district_id\n",
+    "data": {}
+  },
+  "6156b2e729f398651a47944a1afcca18": {
+    "timestamp": "1757598253.4832919",
+    "query": "\nSELECT\n    p.district,\n    p.district_id,\n    COUNT(p.park_id) AS num_green_spaces,\n    SUM(p.area_sq_m) AS total_green_area,\n    AVG(p.area_sq_m) AS avg_park_size,\n    COUNT(DISTINCT p.neighborhood) AS neighborhoods_with_parks,\n    COALESCE(SUM(r.inhabitants), 1) AS population,\n    (SUM(p.area_sq_m) * 10000.0) / NULLIF(SUM(r.inhabitants), 0) AS park_area_per_10k_residents,\n    AVG(EXTRACT(YEAR FROM CURRENT_DATE) - 2020) AS avg_years_since_renovation\nFROM berlin_source_data.parks p\nLEFT JOIN berlin_source_data.regional_statistics r\n    ON p.district = r.district AND r.year = (SELECT MAX(year) FROM berlin_source_data.regional_statistics)\nGROUP BY p.district, p.district_id\n",
+    "data": {}
+  },
+  "cdb7b20b890f25fe9850c632fec39dec": {
+    "timestamp": "1757600242.077188",
+    "query": "\nSELECT\n    p.district,\n    p.district_id,\n    COUNT(p.park_id) AS num_green_spaces,\n    SUM(p.area_sq_m) AS total_green_area,\n    AVG(p.area_sq_m) AS avg_park_size,\n    COUNT(DISTINCT p.district) AS districts_with_parks,\n    COALESCE(SUM(r.inhabitants), 1) AS population,\n    (SUM(p.area_sq_m) * 10000.0) / NULLIF(SUM(r.inhabitants), 0) AS park_area_per_10k_residents,\n    AVG(EXTRACT(YEAR FROM CURRENT_DATE) - 2020) AS avg_years_since_renovation\nFROM berlin_source_data.parks p\nLEFT JOIN berlin_source_data.regional_statistics r\n    ON p.district = r.district AND r.year = (SELECT MAX(year) FROM berlin_source_data.regional_statistics)\nGROUP BY p.district, p.district_id\n",
+    "data": {}
+  },
+  "8a96068c92b224af20f5d5f48e06c42c": {
+    "timestamp": "1757682675.6013868",
+    "query": "\nSELECT\n    b.district,\n    b.district_id,\n    COUNT(b.stop_id) AS num_stops,\n    COUNT(DISTINCT b.neighborhood) AS neighborhoods_covered,\n    COALESCE(SUM(r.inhabitants), 1) AS population,\n    (COUNT(b.stop_id) * 10000.0) / NULLIF(SUM(r.inhabitants), 0) AS stops_per_10k_residents,\n    AVG(CASE WHEN b.latitude IS NOT NULL AND b.longitude IS NOT NULL THEN 1 ELSE 0 END) AS location_accuracy_score,\n    COUNT(DISTINCT b.name) AS unique_stop_names,\n    COUNT(CASE WHEN b.address IS NOT NULL THEN 1 END) AS stops_with_address\nFROM berlin_source_data.bus_tram_stops b\nLEFT JOIN berlin_source_data.regional_statistics r\n    ON b.district = r.district AND r.year = (SELECT MAX(year) FROM berlin_source_data.regional_statistics)\nGROUP BY b.district, b.district_id\n",
+    "data": {}
+  },
+  "43125ce680b41cda71a9cf0e85dfa163": {
+    "timestamp": "1757682706.7489665",
+    "query": "\nSELECT\n    t.district,\n    t.district_id,\n    COUNT(t.id) AS num_crime_statistics,\n    COALESCE(SUM(r.inhabitants), 1) AS population,\n    (COUNT(t.id) * 10000.0) / NULLIF(SUM(r.inhabitants), 0) AS crime_statistics_per_10k_residents\nFROM berlin_source_data.crime_statistics t\nLEFT JOIN berlin_source_data.regional_statistics r\n    ON t.district = r.district AND r.year = (SELECT MAX(year) FROM berlin_source_data.regional_statistics)\nGROUP BY t.district, t.district_id\n",
+    "data": {}
+  },
+  "ecd825ea0ae538437207715b8b296f30": {
+    "timestamp": "1757685184.223204",
+    "query": "\nSELECT\n    r.district,\n    COUNT(t.osm_id) AS num_dental_offices,\n    COALESCE(SUM(r.inhabitants), 1) AS population,\n    (COUNT(t.osm_id) * 10000.0) / NULLIF(SUM(r.inhabitants), 0) AS dental_offices_per_10k_residents\nFROM berlin_source_data.dental_offices t\nLEFT JOIN berlin_source_data.regional_statistics r\n    ON r.district = r.district AND r.year = (SELECT MAX(year) FROM berlin_source_data.regional_statistics)\nGROUP BY r.district\n",
+    "data": {}
+  },
+  "e198e150190b2df05483bd721e2c2366": {
+    "timestamp": "1757685644.8287609",
+    "query": "\nSELECT\n    t.district,\n    t.district_id,\n    COUNT(t.district_id) AS num_districts_pop_stat,\n    COALESCE(SUM(r.inhabitants), 1) AS population,\n    (COUNT(t.district_id) * 10000.0) / NULLIF(SUM(r.inhabitants), 0) AS districts_pop_stat_per_10k_residents\nFROM berlin_source_data.districts_pop_stat t\nLEFT JOIN berlin_source_data.regional_statistics r\n    ON t.district = r.district AND r.year = (SELECT MAX(year) FROM berlin_source_data.regional_statistics)\nGROUP BY t.district, t.district_id\n",
+    "data": {}
+  },
+  "acc6245f644a84b97ae40dc919fb1c80": {
+    "timestamp": "1757685931.920701",
+    "query": "\nSELECT\n    t.district,\n    t.district_id,\n    COUNT(t.district_id) AS num_hospitals,\n    COALESCE(SUM(r.inhabitants), 1) AS population,\n    (COUNT(t.district_id) * 10000.0) / NULLIF(SUM(r.inhabitants), 0) AS hospitals_per_10k_residents\nFROM berlin_source_data.hospitals t\nLEFT JOIN berlin_source_data.regional_statistics r\n    ON t.district = r.district AND r.year = (SELECT MAX(year) FROM berlin_source_data.regional_statistics)\nGROUP BY t.district, t.district_id\n",
+    "data": {}
+  },
+  "58580c2297644f3d6c3becf45123f5db": {
+    "timestamp": "1757686092.3625495",
+    "query": "\nSELECT\n    t.district,\n    t.district_id,\n    COUNT(t.kindergarten_id) AS num_kindergartens,\n    COALESCE(SUM(r.inhabitants), 1) AS population,\n    (COUNT(t.kindergarten_id) * 10000.0) / NULLIF(SUM(r.inhabitants), 0) AS kindergartens_per_10k_residents\nFROM berlin_source_data.kindergartens t\nLEFT JOIN berlin_source_data.regional_statistics r\n    ON t.district = r.district AND r.year = (SELECT MAX(year) FROM berlin_source_data.regional_statistics)\nGROUP BY t.district, t.district_id\n",
+    "data": {}
+  },
+  "1620ff3b515a01c5cf436ad376395fba": {
+    "timestamp": "1757686247.1702046",
+    "query": "\nSELECT\n    t.district,\n    t.district_id,\n    COUNT(t.district_id) AS num_land_prices,\n    COALESCE(SUM(r.inhabitants), 1) AS population,\n    (COUNT(t.district_id) * 10000.0) / NULLIF(SUM(r.inhabitants), 0) AS land_prices_per_10k_residents\nFROM berlin_source_data.land_prices t\nLEFT JOIN berlin_source_data.regional_statistics r\n    ON t.district = r.district AND r.year = (SELECT MAX(year) FROM berlin_source_data.regional_statistics)\nGROUP BY t.district, t.district_id\n",
+    "data": {}
+  },
+  "4bfb1a268e188e0f264322038bc33b93": {
+    "timestamp": "1757686462.1599362",
+    "query": "\nSELECT\n    t.district,\n    t.district_id,\n    COUNT(t.listing_id) AS num_long_term_listings,\n    COALESCE(SUM(r.inhabitants), 1) AS population,\n    (COUNT(t.listing_id) * 10000.0) / NULLIF(SUM(r.inhabitants), 0) AS long_term_listings_per_10k_residents\nFROM berlin_source_data.long_term_listings t\nLEFT JOIN berlin_source_data.regional_statistics r\n    ON t.district = r.district AND r.year = (SELECT MAX(year) FROM berlin_source_data.regional_statistics)\nGROUP BY t.district, t.district_id\n",
+    "data": {}
+  },
+  "91644c09ce6822feeb633d278a9ca62e": {
+    "timestamp": "1757686656.5433562",
+    "query": "\nSELECT\n    t.district,\n    t.district_id,\n    COUNT(t.protection_zone_id) AS num_milieuschutz_protection_zones,\n    COALESCE(SUM(r.inhabitants), 1) AS population,\n    (COUNT(t.protection_zone_id) * 10000.0) / NULLIF(SUM(r.inhabitants), 0) AS milieuschutz_protection_zones_per_10k_residents\nFROM berlin_source_data.milieuschutz_protection_zones t\nLEFT JOIN berlin_source_data.regional_statistics r\n    ON t.district = r.district AND r.year = (SELECT MAX(year) FROM berlin_source_data.regional_statistics)\nGROUP BY t.district, t.district_id\n",
+    "data": {}
+  },
+  "440ea0b23443a703a48844cd965daaa7": {
+    "timestamp": "1757686804.8644927",
+    "query": "\nSELECT\n    t.district,\n    t.district_id,\n    COUNT(t.playground_id) AS num_playgrounds,\n    COALESCE(SUM(r.inhabitants), 1) AS population,\n    (COUNT(t.playground_id) * 10000.0) / NULLIF(SUM(r.inhabitants), 0) AS playgrounds_per_10k_residents\nFROM berlin_source_data.playgrounds t\nLEFT JOIN berlin_source_data.regional_statistics r\n    ON t.district = r.district AND r.year = (SELECT MAX(year) FROM berlin_source_data.regional_statistics)\nGROUP BY t.district, t.district_id\n",
+    "data": {}
+  },
+  "44929f642afe505838a5916d3230910e": {
+    "timestamp": "1757687090.1812828",
+    "query": "\nSELECT\n    r.district,\n    COUNT(t.pool_id) AS num_pools,\n    COALESCE(SUM(r.inhabitants), 1) AS population,\n    (COUNT(t.pool_id) * 10000.0) / NULLIF(SUM(r.inhabitants), 0) AS pools_per_10k_residents\nFROM berlin_source_data.pools t\nLEFT JOIN berlin_source_data.regional_statistics r\n    ON t.district_id = r.district_id AND r.year = (SELECT MAX(year) FROM berlin_source_data.regional_statistics)\nGROUP BY r.district\n",
+    "data": {}
+  },
+  "87dc4c217ed98499820862d0c19070f9": {
+    "timestamp": "1757687396.7759905",
+    "query": "\nSELECT\n    t.district,\n    t.district_id,\n    COUNT(t.district_id) AS num_rent_stats_per_neighborhood,\n    COALESCE(SUM(r.inhabitants), 1) AS population,\n    (COUNT(t.district_id) * 10000.0) / NULLIF(SUM(r.inhabitants), 0) AS rent_stats_per_neighborhood_per_10k_residents\nFROM berlin_source_data.rent_stats_per_neighborhood t\nLEFT JOIN berlin_source_data.regional_statistics r\n    ON t.district = r.district AND r.year = (SELECT MAX(year) FROM berlin_source_data.regional_statistics)\nGROUP BY t.district, t.district_id\n",
+    "data": {}
+  },
+  "6aea3cf7312078dfe345cd9c33b08024": {
+    "timestamp": "1757687899.8304484",
+    "query": "\nSELECT\n    t.district,\n    t.district_id,\n    COUNT(t.station_id) AS num_sbahn,\n    COALESCE(SUM(r.inhabitants), 1) AS population,\n    (COUNT(t.station_id) * 10000.0) / NULLIF(SUM(r.inhabitants), 0) AS sbahn_per_10k_residents\nFROM berlin_source_data.sbahn t\nLEFT JOIN berlin_source_data.regional_statistics r\n    ON t.district = r.district AND r.year = (SELECT MAX(year) FROM berlin_source_data.regional_statistics)\nGROUP BY t.district, t.district_id\n",
+    "data": {}
+  },
+  "6c24566156535d7f794f90fc8d151c21": {
+    "timestamp": "1757688050.9420109",
+    "query": "\nSELECT\n    t.district,\n    t.district_id,\n    COUNT(t.station) AS num_ubahn,\n    COALESCE(SUM(r.inhabitants), 1) AS population,\n    (COUNT(t.station) * 10000.0) / NULLIF(SUM(r.inhabitants), 0) AS ubahn_per_10k_residents\nFROM berlin_source_data.ubahn t\nLEFT JOIN berlin_source_data.regional_statistics r\n    ON t.district = r.district AND r.year = (SELECT MAX(year) FROM berlin_source_data.regional_statistics)\nGROUP BY t.district, t.district_id\n",
+    "data": {}
+  },
+  "69567904b26e08f4bf9ed708c69e5663": {
+    "timestamp": "1757688194.248382",
+    "query": "\nSELECT\n    t.district,\n    t.district_id,\n    COUNT(t.university_id) AS num_universities,\n    COALESCE(SUM(r.inhabitants), 1) AS population,\n    (COUNT(t.university_id) * 10000.0) / NULLIF(SUM(r.inhabitants), 0) AS universities_per_10k_residents\nFROM berlin_source_data.universities t\nLEFT JOIN berlin_source_data.regional_statistics r\n    ON t.district = r.district AND r.year = (SELECT MAX(year) FROM berlin_source_data.regional_statistics)\nGROUP BY t.district, t.district_id\n",
+    "data": {}
+  },
+  "f341f34cdc6f1480ba25feeba06c24ac": {
+    "timestamp": "1757688319.4225004",
+    "query": "\nSELECT\n    t.district,\n    t.district_id,\n    COUNT(t.venue_id) AS num_venues,\n    COALESCE(SUM(r.inhabitants), 1) AS population,\n    (COUNT(t.venue_id) * 10000.0) / NULLIF(SUM(r.inhabitants), 0) AS venues_per_10k_residents\nFROM berlin_source_data.venues t\nLEFT JOIN berlin_source_data.regional_statistics r\n    ON t.district = r.district AND r.year = (SELECT MAX(year) FROM berlin_source_data.regional_statistics)\nGROUP BY t.district, t.district_id\n",
+    "data": {
+      "district": {
+        "0": "Lichtenberg",
+        "1": "Friedrichshain-Kreuzberg",
+        "2": "Neuk\u00f6lln",
+        "3": "Tempelhof-Sch\u00f6neberg",
+        "4": "Marzahn-Hellersdorf",
+        "5": "Charlottenburg-Wilmersdorf",
+        "6": "Mitte",
+        "7": "Pankow",
+        "8": "Reinickendorf",
+        "9": "Steglitz-Zehlendorf",
+        "10": "Treptow-K\u00f6penick",
+        "11": "Spandau"
+      },
+      "district_id": {
+        "0": "11011011",
+        "1": "11002002",
+        "2": "11008008",
+        "3": "11007007",
+        "4": "11010010",
+        "5": "11004004",
+        "6": "11001001",
+        "7": "11003003",
+        "8": "11012012",
+        "9": "11006006",
+        "10": "11009009",
+        "11": "11005005"
+      },
+      "num_venues": {
+        "0": 218,
+        "1": 1279,
+        "2": 643,
+        "3": 703,
+        "4": 140,
+        "5": 1220,
+        "6": 1679,
+        "7": 880,
+        "8": 272,
+        "9": 425,
+        "10": 354,
+        "11": 222
+      },
+      "population": {
+        "0": 67990058,
+        "1": 375327666,
+        "2": 212200931,
+        "3": 250175204,
+        "4": 40872720,
+        "5": 418558820,
+        "6": 666787986,
+        "7": 373390160,
+        "8": 73111424,
+        "9": 131939550,
+        "10": 104104674,
+        "11": 57074202
+      },
+      "venues_per_10k_residents": {
+        "0": 0.03206351140338783,
+        "1": 0.03407689109707143,
+        "2": 0.030301469318247242,
+        "3": 0.02810030685535086,
+        "4": 0.03425267513392796,
+        "5": 0.029147635689531045,
+        "6": 0.025180417692768686,
+        "7": 0.02356784120931307,
+        "8": 0.037203488199053544,
+        "9": 0.03221172120111066,
+        "10": 0.03400423692792122,
+        "11": 0.038896733063390004
+      }
+    }
+  }
+}

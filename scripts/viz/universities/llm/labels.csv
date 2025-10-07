@@ -1,0 +1,11 @@
+table_name,district,hashtags
+universities,Pankow,"#low-university-density,#limited-university-access,#two-universities"
+universities,Lichtenberg,"#low-university-density,#few-universities,#university-scarcity"
+universities,Steglitz-Zehlendorf,"#low-university-density,#sparse-universities,#limited-higher-ed,#under-served-education,#under-resourced-district,#few-academic-centers"
+universities,Friedrichshain-Kreuzberg,"#low-university-density,#university-scarce,#limited-higher-education,#few-universities,#two-universities,#under-universitied"
+universities,Treptow-Köpenick,"#low-university-per-capita,#limited-university-access,#two-universities-district"
+universities,Neukölln,"#low-university-density,#single-university-district,#scarce-higher-education"
+universities,Tempelhof-Schöneberg,"#low-university-district,#single-university-district,#rural-university-access,#limited-higher-ed,#sparse-university-presence,#under-resourced-higher-ed"
+universities,Marzahn-Hellersdorf,"#low-university-density,#single-university-district,#university-scarce"
+universities,Charlottenburg-Wilmersdorf,"#universities-high-density,#universities-many,#universities-per-area"
+universities,Mitte,"#high-university-density,#under-universities-per-capita,#university-rich-district"

@@ -1,0 +1,13 @@
+table_name,district,hashtags
+long_term_listings,Lichtenberg,"#well-served,#low-variability,#wide-value-range"
+long_term_listings,Friedrichshain-Kreuzberg,"#well-served,#low-variability,#wide-value-range"
+long_term_listings,Neukölln,"#underserved,#high-variability,#wide-value-range"
+long_term_listings,Tempelhof-Schöneberg,"#well-served,#low-variability,#wide-value-range"
+long_term_listings,Marzahn-Hellersdorf,"#underserved,#high-variability,#wide-value-range"
+long_term_listings,Charlottenburg-Wilmersdorf,"#well-served,#low-variability,#wide-value-range"
+long_term_listings,Mitte,"#well-served,#low-variability,#wide-value-range"
+long_term_listings,Pankow,"#well-served,#low-variability,#wide-value-range"
+long_term_listings,Reinickendorf,"#underserved,#high-variability,#wide-value-range"
+long_term_listings,Steglitz-Zehlendorf,"#well-served,#low-variability,#wide-value-range"
+long_term_listings,Treptow-Köpenick,"#well-served,#low-variability,#wide-value-range"
+long_term_listings,Spandau,"#underserved,#high-variability,#wide-value-range"

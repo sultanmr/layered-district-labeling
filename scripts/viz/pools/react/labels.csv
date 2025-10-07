@@ -1,0 +1,13 @@
+table_name,district,hashtags
+pools,Spandau,"#well-served,#high-variability,#right-skewed-distribution,#has-outliers-1,#wide-value-range"
+pools,Reinickendorf,"#well-served,#high-variability,#right-skewed-distribution,#has-outliers-1,#wide-value-range"
+pools,Marzahn-Hellersdorf,"#well-served,#high-variability,#right-skewed-distribution,#has-outliers-1,#wide-value-range"
+pools,Pankow,"#underserved,#high-variability,#right-skewed-distribution,#has-outliers-1,#wide-value-range"
+pools,Mitte,"#underserved,#high-variability,#right-skewed-distribution,#has-outliers-1,#wide-value-range"
+pools,Tempelhof-Schöneberg,"#underserved,#high-variability,#right-skewed-distribution,#has-outliers-1,#wide-value-range"
+pools,Steglitz-Zehlendorf,"#high-variability,#right-skewed-distribution,#has-outliers-1,#wide-value-range"
+pools,Treptow-Köpenick,"#high-variability,#right-skewed-distribution,#has-outliers-1,#wide-value-range"
+pools,Neukölln,"#high-variability,#right-skewed-distribution,#has-outliers-1,#wide-value-range"
+pools,Friedrichshain-Kreuzberg,"#high-variability,#right-skewed-distribution,#has-outliers-1,#wide-value-range"
+pools,Lichtenberg,"#high-variability,#right-skewed-distribution,#has-outliers-1,#wide-value-range"
+pools,Charlottenburg-Wilmersdorf,"#high-variability,#right-skewed-distribution,#has-outliers-1,#wide-value-range"

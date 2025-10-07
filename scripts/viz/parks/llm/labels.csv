@@ -1,0 +1,13 @@
+table_name,district,hashtags
+parks,Charlottenburg-Wilmersdorf,"#low-green-space-per-capita,#high-maintenance-score,#many-small-parks"
+parks,Friedrichshain-Kreuzberg,"#low-green-space-per-capita,#high-maintenance-score,#large-average-park-size,#high-number-of-green-spaces"
+parks,Lichtenberg,"#low-green-space-per-capita,#high-maintenance-score,#large-number-of-spaces,#small-average-park-size"
+parks,Marzahn-Hellersdorf,"#low-green-space-per-capita,#high-maintenance-score,#medium-park-size,#numerous-green-spaces"
+parks,Mitte,"#low-green-space-per-capita,#high-maintenance-score,#medium-park-size,#numerous-green-spaces"
+parks,Neukölln,"#low-green-space-per-capita,#high-maintenance-score,#small-average-park-size,#many-small-green-spaces"
+parks,Pankow,"#low-green-space-per-capita,#high-maintenance-score,#many-small-parks"
+parks,Reinickendorf,"#low-green-space-per-capita,#high-maintenance-score,#medium-park-size,#numerous-green-spaces"
+parks,Spandau,"#low-green-space-per-capita,#high-maintenance-score,#medium-park-size,#high-number-of-green-spaces"
+parks,Steglitz-Zehlendorf,"#low-green-space-per-capita,#high-maintenance-score,#moderate-park-size,#numerous-green-spaces"
+parks,Tempelhof-Schöneberg,"#low-green-space-per-capita,#high-maintenance-score,#small-average-park-size,#numerous-green-spaces"
+parks,Treptow-Köpenick,"#low-green-space-per-capita,#high-maintenance-score,#large-average-park-size,#many-green-spaces"

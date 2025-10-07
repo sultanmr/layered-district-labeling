@@ -1,0 +1,13 @@
+table_name,district,hashtags
+parks,Charlottenburg-Wilmersdorf,"#spacious,#large-park,#high-variability,#wide-value-range"
+parks,Friedrichshain-Kreuzberg,"#many-parks,#high-variability,#right-skewed-distribution,#wide-value-range"
+parks,Lichtenberg,"#spacious,#many-parks,#high-variability,#wide-value-range"
+parks,Marzahn-Hellersdorf,"#large-park,#spacious,#high-variability,#wide-value-range"
+parks,Mitte,"#spacious,#large-park,#high-variability,#wide-value-range"
+parks,Neukölln,"#many-parks,#high-variability,#right-skewed-distribution,#wide-value-range"
+parks,Pankow,"#spacious,#large-park,#high-variability,#wide-value-range"
+parks,Reinickendorf,"#many-parks,#high-variability,#right-skewed-distribution,#wide-value-range"
+parks,Spandau,"#large-park,#spacious,#high-variability,#wide-value-range"
+parks,Steglitz-Zehlendorf,"#spacious,#many-parks,#high-variability,#wide-value-range"
+parks,Tempelhof-Schöneberg,"#large-park,#spacious,#high-variability,#wide-value-range"
+parks,Treptow-Köpenick,"#many-parks,#high-variability,#right-skewed-distribution,#wide-value-range"

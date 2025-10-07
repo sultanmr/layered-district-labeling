@@ -1,0 +1,12 @@
+table_name,district,hashtags
+ubahn,Friedrichshain-Kreuzberg,"#low-ubahn-density,#high-ubahn-number"
+ubahn,Pankow,"#zero-ubahn-per-capita,#low-ubahn-density,#limited-transit-access"
+ubahn,Charlottenburg-Wilmersdorf,"#low-ubahn-density,#high-ubahn-count,#ubahn-availability"
+ubahn,Neukölln,"#zero-ubahn-per-capita,#high-ubahn-density,#ubahn-rich-district"
+ubahn,Tempelhof-Schöneberg,"#low-ubahn-per-capita,#high-ubahn-density,#transit-rich"
+ubahn,Marzahn-Hellersdorf,"#no-ubahn-per-capita,#low-ubahn-density,#ubahn-rich"
+ubahn,Spandau,"#low-ubahn-density,#ubahn-rich,#suburban-transit"
+ubahn,Mitte,"#zero-ubahn-per-capita,#high-ubahn-density,#subway-rich,#ample-subways,#transit-heavy,#underground-network"
+ubahn,Lichtenberg,"#low-ubahn-per-capita,#few-ubahn"
+ubahn,Reinickendorf,"#low-ubahn-per-capita,#high-ubahn-count"
+ubahn,Steglitz-Zehlendorf,"#no-ubahn-per-capita,#low-ubahn-density,#ubahn-rich-district"

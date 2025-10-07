@@ -1,0 +1,13 @@
+table_name,district,hashtags
+hospitals,Tempelhof-Schöneberg,"#hospitals-per-capita-low,#high-hospital-density,#five-hospitals"
+hospitals,Marzahn-Hellersdorf,"#low-hospital-density,#adequate-hospital-supply,#district-healthcare"
+hospitals,Steglitz-Zehlendorf,"#low-hospitals-per-capita,#high-hospital-density,#accessible-care-potential,#under-served-area-indicator,#resource-allocation-challenge,#healthcare-access-gap"
+hospitals,Spandau,"#hospital-shortage,#low-hospital-density,#understaffed-district,#limited-access-healthcare"
+hospitals,Friedrichshain-Kreuzberg,"#low-hospital-density,#moderate-hospital-count,#district-healthcare"
+hospitals,Pankow,"#understaffed-hospitals,#hospitals-per-capita-zero,#few-hospitals-district,#district-hospital-shortage,#hospital-access-limited"
+hospitals,Mitte,"#underserved-district,#low-hospital-per-capita,#hospital-deficit,#adequate-hospital-count,#district-health-infrastructure"
+hospitals,Charlottenburg-Wilmersdorf,"#low-hospital-density,#high-hospital-count,#rural-access-concern,#underserved-population-indicator,#healthcare-infrastructure-gap,#resource-allocation-question"
+hospitals,Treptow-Köpenick,"#low-hospital-density,#moderate-hospital-count,#underserved-hospitals,#high-demand-access,#regional-healthcare-gap,#population-ratio-imbalance"
+hospitals,Lichtenberg,"#understaffed-hospitals,#low-hospital-access,#limited-healthcare-resources,#sparse-hospital-density,#rural-hospital-shortage,#hospital-access-challenge"
+hospitals,Reinickendorf,"#hospitals-low-per-capita,#hospitals-moderate-number,#district-healthcare-access"
+hospitals,Neukölln,"#low-hospital-density,#understaffed-hospitals,#limited-access-healthcare,#underserved-district,#rural-healthcare-challenge"

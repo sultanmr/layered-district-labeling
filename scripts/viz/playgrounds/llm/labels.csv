@@ -1,0 +1,13 @@
+table_name,district,hashtags
+playgrounds,Lichtenberg,"#low-playgrounds-per-capita,#high-number-of-playgrounds"
+playgrounds,Friedrichshain-Kreuzberg,"#low-density,#high-number,#playground-rich,#underserved,#public-amenity,#community-resource"
+playgrounds,Neukölln,"#underserved-playgrounds,#high-playgrounds-count,#low-playgrounds-per-capita"
+playgrounds,Tempelhof-Schöneberg,"#low-density,#high-number,#under-served,#resource-rich,#public-spaces,#urban-amenities"
+playgrounds,Marzahn-Hellersdorf,"#low-playground-access,#high-playground-density,#community-resource"
+playgrounds,Charlottenburg-Wilmersdorf,"#low-playground-density,#high-playground-count,#adequate-playgrounds"
+playgrounds,Mitte,"#underfunded-playgrounds,#ample-playgrounds,#low-playgrounds-per-capita"
+playgrounds,Pankow,"#undersupplied-playgrounds,#high-number-playgrounds,#child-resource-gap,#urban-play-deficit"
+playgrounds,Reinickendorf,"#low-playground-density,#high-playground-count,#urban-playground-need,#infrastructure-gap,#recreation-deficit,#play-space-shortage"
+playgrounds,Steglitz-Zehlendorf,"#low-playgrounds-per-capita,#high-playground-count,#densely-equipped-playgrounds"
+playgrounds,Treptow-Köpenick,"#low-playground-density,#high-number-of-playgrounds,#suburban-playgrounds,#urban-playgrounds,#recreational-facilities,#community-play"
+playgrounds,Spandau,"#low-playground-density,#high-playground-number,#under-resourced-play,#ample-play-space,#community-play-focus,#playground-rich"

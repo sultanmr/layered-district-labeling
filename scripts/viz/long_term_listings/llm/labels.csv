@@ -1,0 +1,13 @@
+table_name,district,hashtags
+long_term_listings,Lichtenberg,"#low-listing-district,#no-long-term-rentals,#high-value-district"
+long_term_listings,Friedrichshain-Kreuzberg,"#low-supply,#niche-market,#exclusive-access"
+long_term_listings,Neukölln,"#low-listing-density,#high-listing-volume,#scarce-rental-market"
+long_term_listings,Tempelhof-Schöneberg,"#low-listing-density,#high-listing-count,#district-specific-data"
+long_term_listings,Marzahn-Hellersdorf,"#low-density-listings,#high-listing-concentration,#resource-rich-district,#listing-heavy-area"
+long_term_listings,Charlottenburg-Wilmersdorf,"#low-supply,#high-volume,#moderate-availability"
+long_term_listings,Mitte,"#low-listing-density,#high-listing-volume,#sparse-availability"
+long_term_listings,Pankow,"#low-inventory,#high-demand,#undersupply,#scarce-supply"
+long_term_listings,Reinickendorf,"#low-availability,#scant-supply,#niche-market"
+long_term_listings,Steglitz-Zehlendorf,"#low-listing-density,#high-listing-concentration,#limited-availability"
+long_term_listings,Treptow-Köpenick,"#low-listing-density,#low-resident-listing-ratio,#housing-availability-index"
+long_term_listings,Spandau,"#low-listing-density,#high-listing-volume,#scarce-inventory"

@@ -1,0 +1,13 @@
+table_name,district,hashtags
+venues,Spandau,"#well-served,#high-variability,#wide-value-range"
+venues,Reinickendorf,"#well-served,#high-variability,#wide-value-range"
+venues,Marzahn-Hellersdorf,"#well-served,#high-variability,#wide-value-range"
+venues,Pankow,"#underserved,#high-variability,#wide-value-range"
+venues,Mitte,"#underserved,#high-variability,#wide-value-range"
+venues,Tempelhof-Schöneberg,"#underserved,#high-variability,#wide-value-range"
+venues,Friedrichshain-Kreuzberg,"#high-variability,#wide-value-range"
+venues,Charlottenburg-Wilmersdorf,"#high-variability,#wide-value-range"
+venues,Lichtenberg,"#high-variability,#wide-value-range"
+venues,Steglitz-Zehlendorf,"#high-variability,#wide-value-range"
+venues,Treptow-Köpenick,"#high-variability,#wide-value-range"
+venues,Neukölln,"#high-variability,#wide-value-range"
