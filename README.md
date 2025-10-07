@@ -1,8 +1,5 @@
 # Berlin Urban Analytics Project
-
-## 🚀 AI-Powered Urban Intelligence Platform
-
-This project represents a sophisticated **AI-driven urban analytics system** that leverages cutting-edge Large Language Models (LLMs) and agentic reasoning to provide intelligent neighborhood segmentation and urban feature analysis for Berlin districts.
+This project represents a sophisticated **urban analytics system** that leverages cutting-edge Large Language Models (LLMs) and agentic reasoning to provide intelligent neighborhood segmentation and urban feature analysis for Berlin districts.
 
 ## Project Structure
 ```
@@ -40,9 +37,9 @@ This project represents a sophisticated **AI-driven urban analytics system** tha
 └── viz/                  # AI-generated visualization outputs
 ```
 
-## 🤖 Advanced AI Features
+## 🤖 Features
 
-### Multi-Modal AI Architecture
+### Multi-Modal Architecture
 - **LLM-Powered Analysis**: Direct integration with Gemini, OpenAI, and DeepSeek models
 - **ReAct Agent Framework**: Reasoning and Action agents with dynamic tool usage
 - **RAG Implementation**: Vector-based retrieval for contextual neighborhood analysis
@@ -53,7 +50,7 @@ This project represents a sophisticated **AI-driven urban analytics system** tha
 - **LLM-Powered**: Direct LLM analysis with structured prompting and JSON output
 - **ReAct Agents**: Advanced reasoning with tool-based analysis and iterative thinking
 
-### AI Infrastructure Components
+### Infrastructure Components
 - **Smart Caching**: Intelligent query caching with automatic invalidation
 - **Dynamic Thresholding**: AI-driven statistical boundary calculation
 - **Agent Communication**: Message bus for multi-agent coordination
@@ -68,11 +65,11 @@ This project represents a sophisticated **AI-driven urban analytics system** tha
 - **Smart Caching**: Efficient data processing with intelligent cache management
 - **Multi-Model Support**: Configurable AI backend selection
 
-## 🏗️ AI-Enhanced Module Architecture
+## 🏗️ Module Architecture
 
 Each segmentation module implements a sophisticated **three-tier AI analysis system** with standardized interfaces:
 
-### AI Core Components:
+### Core Components:
 - **Data Loaders**: Smart data fetching with intelligent caching and preprocessing
 - **Feature Processors**: AI-enhanced metric calculation with dynamic statistical analysis
 - **Segmenters**: Three-tier AI analysis approach:
@@ -80,7 +77,7 @@ Each segmentation module implements a sophisticated **three-tier AI analysis sys
   - **LLM-powered**: Direct LLM analysis with structured prompting and JSON parsing
   - **ReAct agents**: Advanced reasoning with dynamic tool usage and iterative analysis
 
-### AI-Powered Features:
+### Features:
 - **Dynamic Threshold Calculation**: AI-driven statistical boundary optimization
 - **Multi-LLM Integration**: Configurable model selection (Gemini, OpenAI, DeepSeek)
 - **Intelligent Pattern Detection**: Statistical clustering with AI-enhanced insights
@@ -88,7 +85,7 @@ Each segmentation module implements a sophisticated **three-tier AI analysis sys
 - **Contextual Understanding**: RAG implementation for neighborhood context retrieval
 - **Adaptive Error Handling**: Graceful fallback mechanisms for AI failures
 
-## 🎯 AI-Powered Analysis Modules
+## 🎯 Analysis Modules
 
 ### Transportation & Infrastructure
 - **bus_tram_stops**: AI-powered public transport accessibility with dynamic coverage analysis
@@ -124,24 +121,24 @@ Each segmentation module implements a sophisticated **three-tier AI analysis sys
 ### Financial Services
 - **banks**: Banking service accessibility with AI-driven ATM network optimization
 
-## 🏷️ AI-Generated Label Categories
+## 🏷️ Generated Label Categories
 
 Each module leverages **advanced AI reasoning** to generate descriptive hashtags for districts based on comprehensive analysis:
 
-### AI-Powered Common Tags:
+### Common Tags:
 - **#well-served**: AI-calculated above-median service availability
 - **#underserved**: AI-identified below 50% of median service availability
 - **#transport-desert**: LLM-identified limited public transport access
 - **#good-coverage**: ReAct agent-determined above-median service coverage
 - **#high-quality-service**: AI-evaluated above-median service quality
 
-### AI-Enhanced Module-Specific Tags:
+### Enhanced Module-Specific Tags:
 - **banks**: #well-banked, #banking-desert, #good-service, #accessible-banking, #atm-rich, #atm-poor
 - **bus_tram_stops**: #limited-coverage, #high-quality-service
 - **parks**: #high-green-density, #well-maintained, #large-parks, #accessible-parks
 - **hospitals**: #well-served-healthcare, #medical-desert, #high-quality-care
 
-## 🚀 AI-Powered Usage Examples
+## 🚀 Usage Examples
 
 ### Individual Module with AI Analysis
 ```python
@@ -162,7 +159,7 @@ llm_tags = llm_segmenter.segment(features_df)    # LLM-powered insights
 react_tags = react_segmenter.segment(features_df) # Advanced reasoning
 ```
 
-### AI-Enhanced Orchestrated Analysis
+### Orchestrated Analysis
 ```python
 from segmentation.orchestrator import SegmentationOrchestrator
 
@@ -172,11 +169,11 @@ orchestrator.add("parks", segment_types=["rule_based", "llm", "react"])
 orchestrator.add("hospitals", segment_types=["llm", "react"])
 results = orchestrator.run_pipeline()
 
-# Generate AI-powered visualizations
+# Generate visualizations
 orchestrator.visualize_results(results, "ai_analysis_output/")
 ```
 
-### Advanced AI Configuration
+### AI Configuration
 ```python
 # Multi-LLM setup with custom configuration
 from segmentation.parks.react_segmenter import ParksReactSegmenter
@@ -190,7 +187,7 @@ segmenter_gemini = ParksReactSegmenter()  # Default: Gemini
 ai_tags = segmenter_gemini.segment(features_df)
 ```
 
-## 🛠️ AI Setup & Configuration
+## 🛠️ Setup & Configuration
 
 ### Getting Started
 1. **Install AI Dependencies**: `pip install -r requirements.txt`
@@ -199,14 +196,14 @@ ai_tags = segmenter_gemini.segment(features_df)
    - `GEMINI_API_KEY` for Google Gemini
    - `OPENAI_API_KEY` for OpenAI models  
    - `DEEPSEEK_API_KEY` for DeepSeek models
-4. **Run AI Analysis**: Use orchestrator or individual AI modules
+4. **Run Analysis**: Use orchestrator or individual AI modules
 
-### AI Model Configuration
+### Model Configuration
 - **Gemini**: Default model (`gemini-2.5-flash-lite`) with structured output
 - **OpenAI**: GPT-4o-mini with enhanced reasoning capabilities
 - **DeepSeek**: Cost-effective alternative with strong performance
 
-## 📚 AI Documentation
+## 📚 Documentation
 
 Each module contains comprehensive AI documentation:
 - `README.md` - AI methodology, reasoning patterns, and implementation details
@@ -216,16 +213,16 @@ Each module contains comprehensive AI documentation:
 - `react_segmenter.py` - ReAct agent implementation with custom tools
 - `llm_segmenter.py` - Direct LLM integration with structured prompting
 
-## 🔧 AI Edge Case Handling
+## 🔧 Edge Case Handling
 
 All AI modules implement sophisticated error handling:
-- **AI Failure Recovery**: Graceful fallback to rule-based analysis
+- **Failure Recovery**: Graceful fallback to rule-based analysis
 - **Missing Data**: Intelligent imputation and contextual understanding
 - **Statistical Outliers**: AI-driven outlier detection and handling
 - **API Rate Limits**: Smart retry mechanisms with exponential backoff
 - **JSON Parsing**: Robust extraction from LLM responses with multiple pattern matching
 
-## 🎯 AI Performance & Optimization
+## 🎯 Performance & Optimization
 
 ### Intelligent Caching System
 - **Query Result Caching**: 12-hour cache duration with automatic invalidation
@@ -244,7 +241,7 @@ All AI modules implement sophisticated error handling:
 - **Iterative Analysis**: Multi-step reasoning with progressive refinement
 - **JSON Output Parsing**: Robust extraction from agent responses
 
-## 🚀 Advanced AI Capabilities
+## 🚀 Advanced Capabilities
 
 ### Multi-Agent Coordination
 - **Orchestrator Pattern**: Centralized coordination of multiple AI agents
@@ -256,7 +253,7 @@ All AI modules implement sophisticated error handling:
 - **Dynamic Prompting**: Context-aware prompt generation for LLMs
 - **Domain-Specific Tools**: Custom analysis tools for each urban domain
 
-### Production-Ready AI
+### Production-Ready
 - **Error Resilience**: Comprehensive error handling and fallback strategies
 - **Performance Optimization**: Efficient LLM usage with smart caching
 - **Scalable Architecture**: Modular design supporting multiple AI models
